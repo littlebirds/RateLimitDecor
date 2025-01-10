@@ -1,5 +1,3 @@
-# This is a sample Python script.
-
 import threading as _threading
 
 # Press Shift+F10 to execute it or replace it with your code.
@@ -60,7 +58,6 @@ class RateLimitDecor:
             setattr(self, name, self.limit_decor(attr))
 
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     actor = MockAPI('aerae%4r')
     print('Mock API token = "{}"'.format(actor.api_key))
